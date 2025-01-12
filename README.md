@@ -1,0 +1,1 @@
+This repository demonstrates a subtle HTML bug that can be hard to detect. The code attempts to modify the innerHTML property of an element that doesn't exist in the DOM. This results in a silent JavaScript error, making debugging more difficult. The solution shows how to properly check for the element's existence before attempting to modify it.
